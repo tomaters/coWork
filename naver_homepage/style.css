@@ -360,18 +360,77 @@ div.weather {
     border: 1px solid lightgray;
     height: 230px;
     width: auto;
-}
-div.weather {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     padding: 10px;
     margin: 10px;
 }
 div.weather_menu {
     display: flex;
     flex-direction: row;
+    font-size: large;
     justify-content: space-between;
+    margin-bottom: 15px;
+}
+div.weather_compare {
+    position: relative;
+    right: 140px;
+    border: 1px solid lightgray;
+    padding: 2px;
+    border-radius: 10px;
+    color: rgb(58, 58, 58);
+}
+div.weather_display {
+    display: flex;
+    flex-direction: row;
     align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+div.current_weather {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+div.weather_icon_and_degree {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+div.current_details {
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+}
+div.low {
+    color: blue;
+}
+div.high {
+    color: red;
+}
+div.slash {
+    color:gray;
+    font-size: smaller;
+}
+div.dust {
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+i[class="fa-solid fa-chart-line"] {
+    font-size: 150px;
+}
+div.today_weather {
+    position: relative;
+    width: 50%;
+    margin-left: 15px;
+    font-size: 20px;
+    left: 70px;
 }
 div.stocks {
     background-color: white;
@@ -381,9 +440,20 @@ div.stocks {
     border: 1px solid lightgray;
     height: 230px;
     width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
-
-
+div.stocks_menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+div.stocks_main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 
 div.widgets {
     background-color: rgb(240, 246, 247);
